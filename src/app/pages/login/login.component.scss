@@ -1,4 +1,3 @@
-html,
 body {
 	margin: 0;
 	height: 100%;
@@ -14,6 +13,7 @@ body {
     width: 100%;
 	color: #a3c;
 	background-color: #000;
+	z-index:1;
 }
 
 /* ............................................................... */
@@ -174,3 +174,11 @@ body {
 .retrobg-vline { width: 3px; }
 .retrobg-hline + .retrobg-hline { margin-top: 98px; }
 .retrobg-vline + .retrobg-vline { margin-left: 48px; }
+
+#login-form {
+	position:fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index:2;
+}
